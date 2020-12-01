@@ -2,7 +2,7 @@
 title: Hiree
 email: your-email@hiree.app
 description: ''
-baseurl: ''
+baseurl: 'https://wetcouch.github.io/hiree-landing/'
 url: https://hiree.app
 twitter_username: jekyllrb
 github_username: jekyll
