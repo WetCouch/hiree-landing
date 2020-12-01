@@ -44,7 +44,7 @@
             {% for member in page.contact.team %}
                 <div class="team-card mt4">
                     <div class="flex">
-                        <div class="team-card__img"><img src="{{ member.img }}" alt="{{ member.name }}"></div>
+                        <div class="team-card__img"><img src="{{ site.baseurl }}{{ member.img }}" alt="{{ member.name }}"></div>
                         <div class="ml3 flex flex-column justify-center">
                             <h3 class="team-card__name">{{ member.name }}</h3>
                             <h4 class="team-card__role">{{ member.role }}</h4>
